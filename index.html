@@ -11,9 +11,108 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .font-style{
+            font-family: 'EB Garamond', serif;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
 </head>
-<body>
+<body class="font-family">
+    <header class="max-w-[1230px] mx-auto p-5 mb-20" >
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>Services</a>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a>Cases</a>
+                        <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                        </ul>
+                     </li>
+                    </ul>
+                    
+                    </ul>
+                  </div>
+                  <img src="./images/logo2.png" alt="" class="w-20">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li tabindex="0">
+                      <details>
+                        <summary>Services</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                    </details>
+                    </li>
+                    <li tabindex="0">
+                        <details>
+                          <summary>Cases</summary>
+                          <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                          </ul>
+                      </details>
+                      <li tabindex="0">
+                        <details>
+                          <summary>Blog</summary>
+                          <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                          </ul>
+                      </details>
+                      </li>
+                      <li tabindex="0">
+                          <details>
+                            <summary>Contact Us</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details> 
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#B68C5A] p-4 text-white">Free Consultation</a>
+                </div>
+              </div>
+
+        </nav>
+        <section >
+            <div class="hero min-h-screen bg-gray-900" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl md:text-6xl font-bold text-[#fff] ">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5 text-xs md:text-sm text-[#E7E7E7] font-normal">There are many variations of passages of Lorem Ipsum available, but the majority <br>  have suffered alteration in some form, by injected humour.</p>
+                    <input type="search" name="" id="" placeholder="Search your services" class="lg:w-[300px] md:w-[250px] w-[100px] h-[47px] border-none">
+                    <button class="btn  bg-[#B68C5A] p-4 text-white border-none">Search</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </header>
+    <main></main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
